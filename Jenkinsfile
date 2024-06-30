@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://your-repo-url.git'
+                git 'https://github.com/miamioh-roseaw/kubernetes-deploy.git'
             }
         }
         stage('Terraform Init') {
